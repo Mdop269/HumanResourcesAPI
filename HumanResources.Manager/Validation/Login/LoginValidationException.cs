@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace HumanResources.Manager.Validation.Login
+{
+    public class LoginValidationException : Exception
+    {
+        public LoginValidationException(string message) : base(message)
+        {
+            
+        }
+
+    }
+}
